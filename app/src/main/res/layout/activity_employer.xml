@@ -33,11 +33,11 @@
         app:layout_constraintVertical_bias="0.22" />
 
     <Button
-        android:id="@+id/buttonviewsch"
+        android:id="@+id/btnViewSch"
         android:layout_width="180dp"
         android:layout_height="46dp"
 
-        android:text="View scedule"
+        android:text="View schedule"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.406"
