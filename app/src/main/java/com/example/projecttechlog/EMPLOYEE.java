@@ -26,9 +26,8 @@ public class EMPLOYEE extends AppCompatActivity {
         setContentView(R.layout.activity_employee);
     }
     view.setOnClickListener(new View.OnClickListener()
-    private Object v;
     {
-        public void onClick (View v)
+        public void onClick (View Object v;)
         {
             OpenActivity(1);
         }
