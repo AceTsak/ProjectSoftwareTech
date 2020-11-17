@@ -19,7 +19,7 @@ public class Main_activity extends AppCompatActivity {
         Button badd = findViewById(R.id.buttonadd);
         Button bremove = findViewById(R.id.buttonremove);
         Button bmake = findViewById(R.id.buttonmakesch);
-        Button bview = findViewById(R.id.buttonviewsch);
+        Button bview = findViewById(R.id.btnViewSch);
         Button blogout = findViewById(R.id.buttonlogout);
         Button bemp = findViewById(R.id.buttonemployee);
         badd.setOnClickListener(new View.OnClickListener() {
