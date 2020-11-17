@@ -13,7 +13,8 @@
         <activity android:name=".LOGIN" />
         <activity android:name=".VIEW" />
         <activity android:name=".EMPLOYEE" />
-        <activity android:name=".REMOVE" />
+        <activity android:name=".REMOVE"
+            android:parentActivityName=".Main_activity"></activity>
         <activity android:name=".ADD" />
         <activity android:name=".Main_activity">
             <intent-filter>
