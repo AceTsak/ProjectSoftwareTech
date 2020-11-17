@@ -8,4 +8,7 @@
         <item>3</item>
         <item>4</item>
     </string-array>
+    <string name="remove">Remove</string>
+    <string name="surname_rem">Surname</string>
+    <string name="name_rem">Name</string>
 </resources>
