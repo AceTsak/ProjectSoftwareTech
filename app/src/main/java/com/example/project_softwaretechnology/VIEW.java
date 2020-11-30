@@ -1,15 +1,13 @@
-package com.example.projecttechlog;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.project_softwaretechnology;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class VIEW extends AppCompatActivity
-    {
-    Button btnBack;
+import androidx.appcompat.app.AppCompatActivity;
 
+public class VIEW extends AppCompatActivity
+{
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -17,12 +15,10 @@ public class VIEW extends AppCompatActivity
         setContentView(R.layout.activity_view);
 
         Button btnBack = findViewById(R.id.btnBack);
-        btnBack.setOnClickListener(new View.OnClickListener() {
+        btnBack.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View v)
-            {
-                finish();
-            }
+            public void onClick(View v) { finish(); }
         });
-        }
     }
+}
