@@ -7,10 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
+public class MainActivity extends AppCompatActivity {
+//stuff
+=======
 public class MainActivity extends AppCompatActivity
 {
     Button btnAdd, btnRemove, btnMake, btnView, btnEmployee;
     Intent actStart;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -70,6 +75,9 @@ public class MainActivity extends AppCompatActivity
         });
     }
 
+}
+
+
     public void OpenActivity(int i)
     {
         switch(i)
@@ -101,3 +109,4 @@ public class MainActivity extends AppCompatActivity
 
 
 }
+
